@@ -102,9 +102,9 @@ function processRecordedData(recordedChunks) {
                     color: white; /* For better visibility of text */
                 }
                 video {
-                    max-width: 90vw;
-                    max-height: 90vh;
-                    border: 2px solid white;
+                    max-width: 80vw;
+                    max-height: 50vh;
+                    border: 2px solid black;
                     box-shadow: 0 0 10px rgba(0,0,0,0.5);
                 }
             </style>
