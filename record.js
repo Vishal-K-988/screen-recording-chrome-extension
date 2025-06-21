@@ -92,6 +92,11 @@ function processRecordedData(recordedChunks) {
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Recorded Video Playback</title>
             <style>
+            h1{
+            display: flex;
+                    justify-content: center;
+                    align-items: center;
+            }
                 body {
                     background-color: #333;
                     display: flex;
@@ -109,8 +114,13 @@ function processRecordedData(recordedChunks) {
                 }
             </style>
         </head>
-        <body>
+        <body> 
+        <div> 
+        <h1> Recorded Video </h1>
             <video controls   src="${videoBlobUrl}"></video>
+        </div> 
+
+        
             <script>
                 // Revoke object URLs when the page is unloaded to free memory
                 window.addEventListener('beforeunload', () => {
